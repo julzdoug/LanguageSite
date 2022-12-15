@@ -12,3 +12,4 @@ got a backgorund image link:https://wallpaperaccess.com/world-language
 
 6.Starting Prototype with 5 Pages
 
+7. Adding a Background image
