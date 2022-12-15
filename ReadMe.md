@@ -19,3 +19,6 @@ got a backgorund image link:https://wallpaperaccess.com/world-language
 9.Center the Items
 
 10. made footer having problem with center the logo
+
+11.connected all page and update them
+//finally i can work on the seperate pages and start with a form prototype.
