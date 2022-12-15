@@ -17,3 +17,5 @@ got a backgorund image link:https://wallpaperaccess.com/world-language
 8.creating a Logo and add to img folder link:https://www.freelogodesign.org/
 
 9.Center the Items
+
+10. made footer having problem with center the logo
