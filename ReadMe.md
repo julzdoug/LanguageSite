@@ -9,3 +9,5 @@ link:https://www.zhaw.ch/de/linguistik/institute-zentren/ilc/weiterbildung/sprac
 
 5. making a figma Link:https://www.figma.com/file/tu0azq00c4gvai5MAmDqFq/langugaesite?t=WhV3SGm6rCs79j14-1
 got a backgorund image link:https://wallpaperaccess.com/world-language
+
+6.Starting Prototype with 5 Pages
