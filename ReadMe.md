@@ -24,3 +24,5 @@ got a backgorund image link:https://wallpaperaccess.com/world-language
 //finally i can work on the seperate pages and start with a form prototype.
 
 12.change the Img folder name to image
+
+13.Starting with Radio Buttons link:https://getbootstrap.com/docs/5.2/forms/checks-radios/
