@@ -31,4 +31,7 @@ got a backgorund image link:https://wallpaperaccess.com/world-language
 
 15.Clear the Footer border and added language on the index page
 
-16.update all pages 
+16.update all pages
+
+17.Starting with position radio buttons.
+
