@@ -26,3 +26,5 @@ got a backgorund image link:https://wallpaperaccess.com/world-language
 12.change the Img folder name to image
 
 13.Starting with Radio Buttons link:https://getbootstrap.com/docs/5.2/forms/checks-radios/
+
+14.Change the Header and the Footer with a better understandeble code. re-wrote the html file.selfmade.
