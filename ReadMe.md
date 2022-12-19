@@ -51,3 +51,6 @@ got a backgorund image link:https://wallpaperaccess.com/world-language
 
 25.Add onSubmit name for function an button pluss message field ready
 
+26. made variable with all the IDs
+
+27. script radio button response check. Continue with name field validations
