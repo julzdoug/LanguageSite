@@ -26,7 +26,7 @@ else {
             break;
         }
     }
-    alert('Du hast "' + value + '" ausgewählt' );
+    alert('Du hast' + value + 'ausgewählt' );
     return true;
 }
 }
@@ -35,9 +35,9 @@ function validateForm() {
     if (!validateFirstName()) return false;
     if (!validateLastName()) return false;
     return true;
-            }
+            
             function validateFirstName() {
-                let firstName = document.getElementById("firstName");
+                let firstName = document.getElementById("fName");
                 let value = firstName.value;
                 if (!value) {
                     alert("Please enter a first name.");
@@ -47,7 +47,16 @@ function validateForm() {
                     alert(`First Name: ${value}" ausgewählt`);
                     return true;
                 }
-          
+                function validateLastName() {
+                    let lastName = document.getElementById("lName");
+                    let value = lastName.value;
+                    if (!value) {
+                        alert("Please enter a last name.");
+                                        return false;
+                    }
+                    alert('Du hast' + value + 'ausgewählt' );
+                    return true;
+                }
             
                         
          
