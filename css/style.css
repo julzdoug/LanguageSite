@@ -1,4 +1,17 @@
-
+@media only screen and (max-width: 600px) {
+   /* styles for screens with a width of 600px or less */
+   .form-check-inline {
+     display: block;
+     margin-bottom: 0.5rem;
+   }
+   .form-label {
+     display: block;
+   }
+ }
+ .form-control {
+   width: 100%;
+ }
+  
    .jumbotron {
     background: url(image/1260521.jpg) fixed center no-repeat;
     background-size: cover;
@@ -35,7 +48,7 @@
     }
     
     .wrapper img {
-       display: block;
+       display: flexbox;
        max-width:100%;
     }
     

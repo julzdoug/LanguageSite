@@ -62,40 +62,38 @@
       <div class="container text-start">
         <div class="row justify-content-sm-start">
           <div class="col col-lg-4">
-            <form action="" id="contactForm" onsubmit="return validateAnswers();">
+            <form action="" id="contactForm" onsubmit="return validateGender();">
+              <!--gender-->
               <div class="form-check-inline">
                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                  value="option1">
+                  value="Male">
                 <label class="form-check-label" for="inlineRadio1">Male</label>
               </div>
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                  value="option2">
+                  value="Female">
                 <label class="form-check-label" for="inlineRadio2">Female</label>
               </div>
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
-                  value="option3">
+                  value="Other">
                 <label class="form-check-label" for="inlineRadio3">Other</label>
               </div>
-              <!--Contact Info-->
+            </form>
+            <form action="" id="contactForm" onsubmit="return validateForm();">
               <!-- Name input -->
               <div class="row justify-content-sm-start g-3">
-                <label class="form-label py-2" for="name"></label>
-                <input class="form-control py-1" id="fname" type="text" placeholder=" First Name"
+                <label class="form-label py-2" for="fname"></label>
+                <input class="form-control py-1" id="fname" type="text" placeholder="First Name"
                   data-sb-validations="required" />
-                <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+                <div class="invalid-feedback" data-sb-feedback="name:required"> First Name is required.</div>
               </div>
               <div class="row justify-content-sm-start g-3">
-                <label class="form-label py-2" for="name"></label>
-                <input class="form-control py-1" id="lname" type="text" placeholder="Last Name"
-                  data-sb-validations="required" />
+                <label class="form-label py-2" for="lname"></label>
+                <input class="form-control py-1" id="lname" type="text" placeholder="Last Name" data-sb-validations="required">
                 <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
               </div>
-              <div class="row justify-content-sm-start g-3">
-                <label class="form-label py-2" for="street"></label>
-                <input class="form-control py-1" id="street" type="text" placeholder="Street"
-                  data-sb-validations="required" />
+              <div class="mb-3">
                 <div class="invalid-feedback" data-sb-feedback="street:required">Street is required.
                 </div>
               </div>
@@ -135,6 +133,9 @@
                   data-sb-validations="required" />
                 <div class="invalid-feedback" data-sb-feedback="email:required">Email is required.</div>
               </div>
+            </form>
+            <form action="" onsubmit="return language();">
+              <div class="container-fluid">
               <div class="mb-3">
                 <label class="form-label d-block py-2 px-1"><span class="display">Language</span></label>
                 <div class="form-check form-check-inline justify-content-sm-start g-3">
@@ -171,6 +172,8 @@
                   <label class="form-check-label" for="hungarian">Hungarian</label>
                 </div>
               </div>
+            </form>
+            <form action="" onsubmit="return payment()">
               <div class="mb-3">
                 <label class="form-label d-block">Payment</label>
                 <div class="form-check form-check-inline">
@@ -191,17 +194,16 @@
                       Conditions</label>
                   </div>
                   <div class="mb-3">
-                    <button class="btn btn-success btn-lg" id="submitButton" type="submit" onclick="validateAnswers();">Submit</button>
+                    <button class="btn btn-success btn-lg" id="submitButton" type="submit"
+                      onclick="validateForm();">Submit</button>
                   </div>
+                </div>
             </form>
-            <div>
-              <p id="message"></p>
-            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+
   </div>
 
 
