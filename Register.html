@@ -62,7 +62,7 @@
       <div class="container text-start">
         <div class="row justify-content-sm-start">
           <div class="col col-lg-4">
-            <form action="" id="contactForm" onsubmit="return validateGender();">
+            <form id="contactForm" onsubmit="return validateForm();">
               <!--gender-->
               <div class="form-check-inline">
                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
@@ -79,9 +79,7 @@
                   value="Other">
                 <label class="form-check-label" for="inlineRadio3">Other</label>
               </div>
-            </form>
-            <form action="" id="contactForm" onsubmit="return validateForm();">
-              <!-- Name input -->
+             <!-- Name input -->
               <div class="row justify-content-sm-start g-3">
                 <label class="form-label py-2" for="fname"></label>
                 <input class="form-control py-1" id="fname" type="text" placeholder="First Name"
@@ -133,9 +131,6 @@
                   data-sb-validations="required" />
                 <div class="invalid-feedback" data-sb-feedback="email:required">Email is required.</div>
               </div>
-            </form>
-            <form action="" onsubmit="return language();">
-              <div class="container-fluid">
               <div class="mb-3">
                 <label class="form-label d-block py-2 px-1"><span class="display">Language</span></label>
                 <div class="form-check form-check-inline justify-content-sm-start g-3">
@@ -172,8 +167,6 @@
                   <label class="form-check-label" for="hungarian">Hungarian</label>
                 </div>
               </div>
-            </form>
-            <form action="" onsubmit="return payment()">
               <div class="mb-3">
                 <label class="form-label d-block">Payment</label>
                 <div class="form-check form-check-inline">
@@ -185,6 +178,7 @@
                     <label class="form-check-label" for="creditCard">Credit Card</label>
                   </div>
                 </div>
+            </div>
                 <div class="mb-3">
                   <label class="form-label d-block">Terms and Conditions</label>
                   <div class="form-check form-check-inline">
@@ -198,30 +192,23 @@
                       onclick="validateForm();">Submit</button>
                   </div>
                 </div>
-            </form>
+              </form>
           </div>
         </div>
       </div>
     </div>
-
-  </div>
-
-
+    </div>
   <!--footer-->
-  <footer class="bg-success text-center py-3 px-0 card-footer ">
-    <div class="container">
-      <img class="d-inline-block" src="image/logo.jpeg" alt="Logo" width="100" height="100" class="mb-3">
-      <p class="text-white mb-0">Heidis Helvetic</p>
-      <p class="text-white mb-0">Mountain street 4</p>
-      <p class="text-white mb-0">80W0 Alps</p>
-      <p class="text-white mb-0">Switzereland</p>
-      <p class="text-white mt-3 mb-0">Schwarz Agency Switzerland Oppertunity Zürich</p>
+  <footer class="bg-success text-center py-3 px-0 card-footer">
+    <div class="container text-white mb-0">
+      <img class="d-inline-block mb-3" src="image/logo.jpeg" alt="Logo" width="100" height="100">
+      <p>Heidis Helvetic</p>
+      <p>Mountain street 4</p>
+      <p>80W0 Alps</p>
+      <p>Switzereland</p>
+      <p>Schwarz Agency Switzerland Oppertunity Zuerich</p>
     </div>
   </footer>
-  </div>
-</body>
-<!-- FOOTER -->
-
-
-
+ </body>
+<!--FOOTER -->
 </html>

@@ -1,70 +1,38 @@
             
 //gender
- /*       alert eingestellt        
-var Male = document.getElementById("inlineRadio1");
-var Female = document.getElementById("inlineRadio2");
-var Other = document.getElementById("inlineRadio3");
-payment()
-language()
-*/
-
-function validateGender() {          
-    var Male = document.getElementById("inlineRadio1");
-    var Female = document.getElementById("inlineRadio2");
-    var Other = document.getElementById("inlineRadio3");
-if (!(Male.checked || Female.checked || Other.checked)) {
-    alert("Please select a gender.");
-      return false;
-}
-else {
-    let radioButtons = document.getElementsByName("inlineRadioOptions");
-    let value;
-    for (let b = 0; b < radioButtons.length; ++b) {
-        let button = radioButtons[b];
-        if (button.checked) {
-            value = button.value;
-            break;
-        }
-    }
-    alert('Du hast' + value + 'ausgewählt' );
-    return true;
-}
-}
-//checking Name
 function validateForm() {
-    if (!validateFirstName()) return false;
-    if (!validateLastName()) return false;
-    return true;
-            
-            function validateFirstName() {
-                let firstName = document.getElementById("fName");
-                let value = firstName.value;
-                if (!value) {
-                    alert("Please enter a first name.");
-                                        return false;
-                }
-                else {
-                    alert(`First Name: ${value}" ausgewählt`);
-                    return true;
-                }
-                function validateLastName() {
-                    let lastName = document.getElementById("lName");
-                    let value = lastName.value;
-                    if (!value) {
-                        alert("Please enter a last name.");
-                                        return false;
-                    }
-                    alert('Du hast' + value + 'ausgewählt' );
-                    return true;
-                }
-            
-                        
+    // Get the gender radio buttons
+    var maleRadio = document.getElementById("inlineRadio1");
+    var femaleRadio = document.getElementById("inlineRadio2");
+    var otherRadio = document.getElementById("inlineRadio3");
+    var fname = document.getElementById('fname');
+    var lname = document.getElementById('lname');
+
+      if (!maleRadio.checked && !femaleRadio.checked && !otherRadio.checked) {
+      alert("Please select a gender");
+      return false;
+    }
+    else if (fname.value.length == 0) {
+    alert("Please enter a First Name");
+    return false;
+  }
+  else if (lname.value.length == 0) {
+    alert("Please enter a Last Name");
+    return false;
+  }
+  return true;
+}
+  // validate name
+
          
                 
 
 
 //Name variables
 /*
+
+
+
 var lname=document.getElementById("lname").value;
 var street=document.getElementById("street").value;
 var postCode=document.getElementById("postCode").value;
