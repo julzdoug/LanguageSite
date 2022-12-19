@@ -62,7 +62,7 @@
       <div class="container text-start">
         <div class="row justify-content-sm-start">
           <div class="col col-lg-4">
-            <form action="" id="contactForm">
+            <form action="" id="contactForm" onsubmit="return validateAnswers();">
               <div class="form-check-inline">
                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
                   value="option1">
@@ -191,9 +191,12 @@
                       Conditions</label>
                   </div>
                   <div class="mb-3">
-                    <button class="btn btn-success btn-lg disabled" id="submitButton" type="submit">Submit</button>
+                    <button class="btn btn-success btn-lg" id="submitButton" type="submit" onclick="validateAnswers();">Submit</button>
                   </div>
             </form>
+            <div>
+              <p id="message"></p>
+            </div>
           </div>
         </div>
       </div>
