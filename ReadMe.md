@@ -19,3 +19,19 @@ got a backgorund image link:https://wallpaperaccess.com/world-language
 9.Center the Items
 
 10. made footer having problem with center the logo
+
+11.connected all page and update them
+//finally i can work on the seperate pages and start with a form prototype.
+
+12.change the Img folder name to image
+
+13.Starting with Radio Buttons link:https://getbootstrap.com/docs/5.2/forms/checks-radios/
+
+14.Change the Header and the Footer with a better understandeble code. re-wrote the html file.selfmade.
+
+15.Clear the Footer border and added language on the index page
+
+16.update all pages
+
+17.Starting with position radio buttons.
+
