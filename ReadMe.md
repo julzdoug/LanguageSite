@@ -47,4 +47,4 @@ got a backgorund image link:https://wallpaperaccess.com/world-language
 
 23.added other languages place still nedd to be mess with plus responsive problem. after prototype try to fix
 
-
+24.Payments method added and terms and conditions
