@@ -72,3 +72,6 @@ https://validatejavascript.com/
 34.change the var to const
 
 35.rewriting in seperate function.
+
+36.starting checkboxe REAL link:
+https://www.the-art-of-web.com/html/html5-checkbox-required/
