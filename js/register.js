@@ -9,6 +9,10 @@ function validateForm() {
     var lname = document.getElementById('lname');
     var postCode=document.getElementById("postCode");
     var city=document.getElementById("city");
+    var country=document.getElementById("country")
+    var phoneNr=document.getElementById("phoneNr")
+    var dateOfBirth=document.getElementById("dateOfBirth")
+    var email=document.getElementById("email")
 
       if (!maleRadio.checked && !femaleRadio.checked && !otherRadio.checked) {
       alert("Please select a gender");
@@ -28,6 +32,27 @@ function validateForm() {
     alert("Please enter a Post Code");
     return false;
      }
+     if (city.value.trim() == "") {
+      alert("Please enter a City");
+      return false;
+     }
+     if (country.value.trim() == "") {
+      alert("Please enter a Country");
+      return false;
+     }
+     if (dateOfBirth.value.trim() == "") {
+      alert("Please enter a Date of Birth");
+      return false;
+     }
+     if (phoneNr.value.trim() == "") {
+      alert("Please enter a Phone Number");
+      return false;
+     }
+     if (email.value.trim() == "") {
+      alert("Please enter an Email");
+      return false;
+     }
+
      return true;
 } 
          

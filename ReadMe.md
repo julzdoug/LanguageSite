@@ -54,3 +54,9 @@ got a backgorund image link:https://wallpaperaccess.com/world-language
 26. made variable with all the IDs
 
 27. script radio button response check. Continue with name field validations
+
+28.First name and last name
+
+29.PostCode
+
+30.City
