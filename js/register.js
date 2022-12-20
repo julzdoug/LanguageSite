@@ -7,26 +7,30 @@ function validateForm() {
     var otherRadio = document.getElementById("inlineRadio3");
     var fname = document.getElementById('fname');
     var lname = document.getElementById('lname');
+    var postCode=document.getElementById("postCode");
+    var city=document.getElementById("city");
 
       if (!maleRadio.checked && !femaleRadio.checked && !otherRadio.checked) {
       alert("Please select a gender");
       return false;
     }
-    else if (fname.value.length == 0) {
+    // validate name
+    if (fname.value.length == 0) {
     alert("Please enter a First Name");
     return false;
   }
-  else if (lname.value.length == 0) {
+  if (lname.value.length == 0) {
     alert("Please enter a Last Name");
     return false;
   }
-  return true;
-}
-  // validate name
-
+  //checked pstCode
+  if (postCode.value.trim() == "") {
+    alert("Please enter a Post Code");
+    return false;
+     }
+     return true;
+} 
          
-                
-
 
 //Name variables
 /*
@@ -54,4 +58,5 @@ var hungarian = document.getElementById("hungarian").checked;
 var bills = document.getElementById("bills");
 var creditCard = document.getElementById("creditCard");
 //Terms variables
-var TnC = document.getElementsByClassName("termsAndConditions");*/
+var TnC = document.getElementsByClassName("termsAndConditions");
+*/
