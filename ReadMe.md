@@ -64,3 +64,11 @@ got a backgorund image link:https://wallpaperaccess.com/world-language
 31. i had to change the type for the number field and email.
 
 32. Correcte the input type and the java script forgot the street.
+
+33. Run the code thru java and html validation Link:
+https://appdevtools.com/html-validator
+https://validatejavascript.com/
+
+34.change the var to const
+
+35.rewriting in seperate function.

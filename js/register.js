@@ -1,12 +1,117 @@
             
 //gender
+//First and last name
 
+function validateFirstName() {
+    let inputElement = document.getElementById("fname");
+    let value = inputElement.value;
+
+    if (!value) { 
+        return false;
+    }
+    else {
+        return true;
+    }
+}
+function validateLastName() {
+    let inputElement = document.getElementById("lname");
+    let value = inputElement.value;
+
+    if (!value) { 
+        return false;
+    }
+    else {
+        return true;
+    }
+}
+function validateStreetName() {
+    let streetName=document.getElementById("streetName");
+    let value = inputElement.value;
+
+    if (!value) { 
+        return false;
+    }
+    else {
+        return true;
+    }
+}
+function validatepostCode() {
+    let postCode=document.getElementById("postCode");
+    let value = inputElement.value;
+
+    if (!value) { 
+        return false;
+    }
+    else {
+        return true;
+    }
+}
+function validatecity() {
+    let city=document.getElementById("city");
+    let value = inputElement.value;
+
+    if (postCode.value < 5000 || postCode.value > 9000) { 
+        alert("Please enter a Post Code");
+        return false;
+         }
+    else {
+        return true;
+    }
+}
+function validatecountry() {
+    let country=document.getElementById("country");
+    let value = inputElement.value;
+
+    if (!value) { 
+        return false;
+    }
+    else {
+        return true;
+    }
+}
+function validateDateOfBirth() {
+    let dateOfBirth=document.getElementById("DateOfBirth");
+    let value = inputElement.value;
+
+    if (!value) { 
+        return false;
+    }
+    else {
+        return true;
+    }
+}
+function validatephoneNumber() {
+    let phoneNr=document.getElementById("phoneNumber");
+    let value = inputElement.value;
+
+    if (!/^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/.test(phoneNr.value)) { 
+        alert("Please enter a valid phone number");
+        return false;
+    }
+    else {
+        return true;
+    }
+}
+function validateemail() {
+    let email=document.getElementById("email");
+    let value = inputElement.value;
+
+    if (!value) { 
+        return false;
+    }
+    else {
+        return true;
+    }
+}
+
+
+/*
 function validateForm() {
     // Get the gender radio buttons
     const maleRadio = document.getElementById("inlineRadio1");
     const femaleRadio = document.getElementById("inlineRadio2");
     const otherRadio = document.getElementById("inlineRadio3");
-    //Name 
+
     const fname = document.getElementById('fname');
     const lname = document.getElementById('lname');
     const streetName=document.getElementById("streetName");
@@ -78,3 +183,5 @@ if (streetName.value.length == 0) {
      return true;
 } 
 }
+
+*/
