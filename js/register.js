@@ -2,7 +2,7 @@
 //gender
 //First and last name
 function validateForm() {
-   /* if (!Gender()) return false;
+ /*   if (!Gender()) return false;
     if (!validateFirstName()) return false;
     if (!validateLastName()) return false;
     if (!validateStreetName()) return false;
@@ -11,14 +11,15 @@ function validateForm() {
     if (!validatecountry()) return false;
     if (!validateDateOfBirth()) return false;
     if (!validatePhoneNumber()) return false;
-    if (!validateEmail()) return false;*/
+    if (!validateEmail()) return false;
     if (!validateCheckboxes()) return false;
-    
+    if (!validatepayment()) return false;
+    */
+    if (!TnC()) return false;
     
     return true;
 }
 /*
-
 function Gender() {
     const maleRadio = document.getElementById("inlineRadio1");
         const femaleRadio = document.getElementById("inlineRadio2");
@@ -139,7 +140,7 @@ function validateEmail() {
         return true;
     }
 }
-*/
+
 function validateCheckboxes() {
     // Get all the checked checkboxes
     let checkedCheckboxes = document.querySelectorAll('input[type="checkbox"]:checked');
@@ -162,6 +163,45 @@ function validateCheckboxes() {
   }
   
 
+  function validatepayment() {
+    var paymentGroup = document.querySelectorAll('input[name="payment"]');
+  
+    var checkedPayment = 0;
+  
+    for (var i = 0; i < paymentGroup.length; i++) {
+      if (paymentGroup[i].checked) {
+        checkedPayment++;
+      }
+    }
+  
+    if (checkedPayment == 0) {
+      alert("Please select a payment method.");
+      return false;
+    } 
+    if (checkedPayment > 2) {
+        alert("Please select only one payment method.");
+        return false;
+      } 
+    else {
+      return true;
+    }
+  }
+
+*/
+    function TnC() {
+        var termsAndConditionsRadio = document.querySelector('#termsAndConditions');
+      
+        if (!termsAndConditionsRadio.checked) {
+          alert("You must accept the terms and conditions to continue.");
+          return false;
+        }
+      else {
+        alert("Thank you for signing up for a language class.");
+        return true;
+      }
+        
+      }
+      
 
 
 

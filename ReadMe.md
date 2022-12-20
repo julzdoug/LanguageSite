@@ -80,3 +80,9 @@ https://www.the-art-of-web.com/html/html5-checkbox-required/
 https://www.plus2net.com/javascript_tutorial/checkbox-limit.php
 
 37: Heading to the payment section to validate this...
+help from link:
+https://www.quizcure.com/javascript/single-multiple-checkbox-validation-in-javascript
+change ita bit
+
+38. Trying to finish the radio button terms n condition...
+repeat from the gender. ( i had to use the query get not the document.)
