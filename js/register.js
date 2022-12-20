@@ -1,8 +1,7 @@
 
-//gender
-//First and last name
+//This is the Validation Form
 function validateForm() {
- /*   if (!Gender()) return false;
+    if (!Gender()) return false;
     if (!validateFirstName()) return false;
     if (!validateLastName()) return false;
     if (!validateStreetName()) return false;
@@ -14,12 +13,11 @@ function validateForm() {
     if (!validateEmail()) return false;
     if (!validateCheckboxes()) return false;
     if (!validatepayment()) return false;
-    */
     if (!TnC()) return false;
     
     return true;
 }
-/*
+//Gender Validation
 function Gender() {
     const maleRadio = document.getElementById("inlineRadio1");
         const femaleRadio = document.getElementById("inlineRadio2");
@@ -33,6 +31,7 @@ else{
     return true;
 }
 }
+//First Name Validation
 function validateFirstName() {
     let inputElement = document.getElementById("fname");
     let value = inputElement.value;
@@ -45,6 +44,7 @@ function validateFirstName() {
         return true;
     }
 }
+//Last Name Validation
 function validateLastName() {
     let inputElement = document.getElementById("lname");
     let value = inputElement.value;
@@ -57,6 +57,7 @@ function validateLastName() {
         return true;
     }
 }
+//Street Name Validation
 function validateStreetName() {
     let inputElement = document.getElementById("streetName");
     let value = inputElement.value;
@@ -69,6 +70,7 @@ function validateStreetName() {
         return true;
     }
 }
+//Post Code Validation
 function validatePostCode() {
     let inputElement = document.getElementById("postCode");
     let value = inputElement.value;
@@ -81,6 +83,7 @@ function validatePostCode() {
         return true;
     }
 }
+//City Validation
 function validateCity() {
     let inputElement = document.getElementById("city");
     let value = inputElement.value;
@@ -93,6 +96,7 @@ function validateCity() {
         return true;
     }
 }
+//Country Validation
 function validatecountry() {
     let country = document.getElementById("country");
     let value = country.value;
@@ -104,6 +108,7 @@ function validatecountry() {
         return true;
     }
 }
+//Date of Birth Validation
 function validateDateOfBirth() {
     let inputElement = document.getElementById("DateOfBirth");
     let value = inputElement.value;
@@ -116,6 +121,7 @@ function validateDateOfBirth() {
         return true;
     }
 }
+//Phone Number Validation
 function validatePhoneNumber() {
     let inputElement = document.getElementById("phoneNr");
     let phoneNr = inputElement.value;
@@ -128,6 +134,7 @@ function validatePhoneNumber() {
         return true;
     }
 }
+//Email Validation
 function validateEmail() {
     let inputElement = document.getElementById("email");
     let value = inputElement.value;
@@ -140,7 +147,7 @@ function validateEmail() {
         return true;
     }
 }
-
+//language Validation
 function validateCheckboxes() {
     // Get all the checked checkboxes
     let checkedCheckboxes = document.querySelectorAll('input[type="checkbox"]:checked');
@@ -162,7 +169,7 @@ function validateCheckboxes() {
     return true;
   }
   
-
+//payment Method Validation
   function validatepayment() {
     var paymentGroup = document.querySelectorAll('input[name="payment"]');
   
@@ -187,7 +194,7 @@ function validateCheckboxes() {
     }
   }
 
-*/
+//Terms Validation
     function TnC() {
         var termsAndConditionsRadio = document.querySelector('#termsAndConditions');
       
@@ -202,9 +209,6 @@ function validateCheckboxes() {
         
       }
       
-
-
-
 
 /* My first code form 
 function validateForm() {

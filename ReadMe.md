@@ -86,3 +86,7 @@ change ita bit
 
 38. Trying to finish the radio button terms n condition...
 repeat from the gender. ( i had to use the query get not the document.)
+
+39.comment the Javascript nice...
+
+40.Clean up the bootstrap code..
