@@ -79,4 +79,4 @@ https://www.the-art-of-web.com/html/html5-checkbox-required/
 36.checkbox blackout. found a link and try to write over.... link:
 https://www.plus2net.com/javascript_tutorial/checkbox-limit.php
 
-
+37: Heading to the payment section to validate this...
