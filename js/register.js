@@ -8,6 +8,7 @@ function validateForm() {
     //Name variables
     var fname = document.getElementById('fname');
     var lname = document.getElementById('lname');
+    var streetName=document.getElementById("streetName");
     var postCode=document.getElementById("postCode");
     var city=document.getElementById("city");
     var country=document.getElementById("country");
@@ -42,7 +43,12 @@ var TnC = document.getElementsByClassName("termsAndConditions");
     alert("Please enter a Last Name");
     return false;
   }
-  //checked pstCode
+  //streetName
+if (streetName.value.length == 0) {
+    alert("Please enter a Street Name");
+        return false;
+}
+  //checked postCode
   if (postCode.value < 5000 || value > 9000) { 
     alert("Please enter a Post Code");
     return false;
@@ -59,7 +65,7 @@ var TnC = document.getElementsByClassName("termsAndConditions");
       alert("Please enter a Date of Birth");
       return false;
      }
-     if (phoneNr.value < 0440000000 || value > 0449999999) { 
+     if (phoneNr.value < 0440000000 || value > 0450000000) { 
       alert("Please enter a Phone Number");
       return false;
      }

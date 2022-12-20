@@ -92,15 +92,17 @@
                 <input class="form-control py-1" id="lname" type="text" placeholder="Last Name" data-sb-validations="required">
                 <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
               </div>
-              <div class="mb-3">
-                <div class="invalid-feedback" data-sb-feedback="street:required">Street is required.
+              <div class="row justify-content-sm-start g-3">
+                <label class="form-label py-2" for="streetName"></label>
+                <input class="form-control py-1" id="streetName" type="text" placeholder="Street Name" data-sb-validations="required">
+                <div class="invalid-feedback"  type="text" data-sb-feedback="street:required">Street is required.
                 </div>
               </div>
               <div class="row justify-content-sm-start g-3">
                 <label class="form-label py-2" for="postCode"></label>
-                <input class="form-control py-1" id="postCode" type="text" placeholder="Post Code"
+                <input class="form-control py-1" id="postCode" type="number" placeholder="Post Code"
                   data-sb-validations="required" />
-                <div class="invalid-feedback" data-sb-feedback="postCode:required">Post Code is required.</div>
+                <div class="invalid-feedback"  data-sb-feedback="postCode:required">Post Code is required.</div>
               </div>
               <div class="row justify-content-sm-start g-3">
                 <label class="form-label py-2" for="city"></label>
@@ -116,19 +118,19 @@
               </div>
               <div class="row justify-content-sm-start g-3">
                 <label class="form-label py-2" for="dateOfBirth"></label>
-                <input class="form-control py-1" id="dateOfBirth" type="text" placeholder="Date of Birth"
+                <input class="form-control py-1" id="dateOfBirth" type="number" placeholder="Date of Birth"
                   data-sb-validations="required" />
                 <div class="invalid-feedback" data-sb-feedback="dateOfBirth:required">Date of Birth is required.</div>
               </div>
               <div class="row justify-content-sm-start g-3">
                 <label class="form-label py-2" for="phoneNr"></label>
-                <input class="form-control py-1" id="phoneNr" type="text" placeholder="Phone Nr"
+                <input class="form-control py-1" id="phoneNr" type="number" placeholder="Phone Nr"
                   data-sb-validations="required" />
                 <div class="invalid-feedback" data-sb-feedback="phoneNr:required">Phone Nr is required.</div>
               </div>
               <div class="row justify-content-sm-start g-3">
                 <label class="form-label py-2" for="email"></label>
-                <input class="form-control py-1" id="email" type="text" placeholder="Email"
+                <input class="form-control py-1" id="email" type="email" placeholder="Email"
                   data-sb-validations="required" />
                 <div class="invalid-feedback" data-sb-feedback="email:required">Email is required.</div>
               </div>

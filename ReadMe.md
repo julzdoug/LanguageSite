@@ -60,3 +60,7 @@ got a backgorund image link:https://wallpaperaccess.com/world-language
 29.PostCode
 
 30.City
+
+31. i had to change the type for the number field and email.
+
+32. Correcte the input type and the java script forgot the street.
