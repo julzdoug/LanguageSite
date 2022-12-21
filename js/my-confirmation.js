@@ -33,19 +33,19 @@ function writeConfirmation() {
         <p> und <span> Elemente verwendet.
     */
     let confirmation = `
-        <p class="text-center fs-3 fw-bold"><span class="confirmation-label">Gender:</span> ${Gender}</p>
-        <p class="text-center fs-3 fw-bold"><span class="confirmation-label">First Name:</span> ${FirstName}</p>
-        <p class="text-center fs-3 fw-bold"><span class="confirmation-label">Last Name:</span> ${LastName}</p>
-        <p class="text-center fs-3 fw-bold"><span class="confirmation-label">Street:</span> ${StreetName}</p>
-        <p class="text-center fs-3 fw-bold"><span class="confirmation-label">Post Code:</span> ${PostCode}</p>
-        <p class="text-center fs-3 fw-bold"><span class="confirmation-label">City:</span> ${City}</p>
-        <p class="text-center fs-3 fw-bold"><span class="confirmation-label">Country:</span> ${Country}</p>
-        <p class="text-center fs-3 fw-bold"><span class="confirmation-label">Date Of Birth:</span> ${DateofBirth}</p>
-        <p class="text-center fs-3 fw-bold"><span class="confirmation-label">Phone Nr:</span> ${PhoneNr}</p>
-        <p class="text-center fs-3 fw-bold"><span class="confirmation-label">Email:</span> ${Email}</p>
-        <p class="text-center fs-3 fw-bold"><span class="confirmation-label">Language:</span> ${Language}</p>
-        <p class="text-center fs-3 fw-bold"><span class="confirmation-label">Payment Method:</span> ${PayMent}</p>
-        <p class="text-center fs-3 fw-bold"><span class="confirmation-label">Terms and Condition:</span> ${TermNCondition}</p>
+        <p class="centered"><span class="confirmation-label centered">Gender:</span> ${Gender}</p>
+        <p class="centered"><span class="confirmation-label centered">First Name:</span> ${FirstName}</p>
+        <p class="centered"><span class="confirmation-label centered">Last Name:</span> ${LastName}</p>
+        <p class="centered"><span class="confirmation-label centered">Street:</span> ${StreetName}</p>
+        <p class="centered"><span class="confirmation-label centered">Post Code:</span> ${PostCode}</p>
+        <p class="centered"><span class="confirmation-label centered">City:</span> ${City}</p>
+        <p class="centered"><span class="confirmation-label centered">Country:</span> ${Country}</p>
+        <p class="centered"><span class="confirmation-label centered">Date Of Birth:</span> ${DateofBirth}</p>
+        <p class="centered"><span class="confirmation-label centered">Phone Nr:</span> ${PhoneNr}</p>
+        <p class="centered"><span class="confirmation-label centered">Email:</span> ${Email}</p>
+        <p class="centered"><span class="confirmation-label centered">Language:</span> ${Language}</p>
+        <p class="centered"><span class="confirmation-label centered">Payment Method:</span> ${PayMent}</p>
+        <p class="centered"><span class="confirmation-label centered">Terms and Condition:</span> ${TermNCondition}</p>
     `;
 
     // Die Bestätigung wird als innerHTML gesetzt.

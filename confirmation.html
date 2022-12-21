@@ -56,19 +56,21 @@
     </div>
   </nav>
   <!--pagecontext body with image-->
-  <div class="wrapper">
-    <img class="bg-img" src="image/1260521.jpg" alt="background">
-    <div class="overlay">
-      <h1 id="app">Besten dank - du hast folgende Angaben eingetragen:</h1>
+  <div class="bg-image" style="
+    background-image: url('image/1260521.jpg');
+    height: 140vh;filter: darkened-image;
+  ">
+    
+      <h1 class="centered">Besten dank - du hast folgende Angaben eingetragen:</h1>
 
-      <div id="confirmation-message" class="alert alert-success" role="alert"></div>
+      <div id="confirmation-message" class="centered"></div>
       <script>
           writeConfirmation();
       </script>
-    </div>
+   
 
     <!--footer-->
-    <footer class="bg-success text-center py-3">
+    <footer class="bg-success text-center py-3 fixed-bottom">
       <div class="container">
         <img class="d-inline-block" src="image/logo.jpeg" alt="Logo" width="100" height="100" class="mb-3">
         <p class="text-white mb-0">Heidis Helvetic</p>

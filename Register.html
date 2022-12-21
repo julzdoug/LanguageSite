@@ -25,7 +25,7 @@
 
 <body>
   <!--Navigation Bar with Logo and Titel-->
-  <nav class="navbar navbar-dark navbar-expand-lg bg-success">
+  <nav class="navbar navbar-dark navbar-expand-lg bg-success z-index-1 ">
     <div class="container-fluid">
       <a id="title" class="navbar-brand align-text-top m-auto text-lg-start text-wrap" href="Register.html">
         <img class="d-inline-block" src="image/logo.jpeg" alt="logo" width="100" height="100">
@@ -56,10 +56,12 @@
     </div>
   </nav>
   <!--pagecontext body with image-->
-  <div class="my-class position-relative bg-success">
+  <div class="bg-image mh-auto" style="
+    background-image: url('image/1260521.jpg');
+    ">
     <!-- form start-->
-    <form action="confirmation.html" class="w-50 p-3 m-auto bg-success col-md-4" id="contactForm" onsubmit="return validateForm() && validateCheckboxes();">
-      <img src="image/1260521.jpg" alt="language note" class="img-fluid img-thumbnail">
+    <form action="confirmation.html" class="w-50 p-3 m-auto col-md-4 mh-auto formul" id="contactForm" onsubmit="return validateForm() && validateCheckboxes();">
+      
       <!--gender-->
       <div class="form-check-inline">
         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="Male">
@@ -186,19 +188,17 @@
       </div>
     </form>
   </div>
-
-  <!--footer-->
-  <footer class="bg-success text-center py-3 card-footer mb-0">
-    <div class="container text-white mb-0">
-      <img class="d-inline-block mb-3" src="image/logo.jpeg" alt="Logo" width="100" height="100">
-      <p>Heidis Helvetic</p>
-      <p>Mountain street 4</p>
-      <p>80W0 Alps</p>
-      <p>Switzereland</p>
-      <p>Schwarz Agency Switzerland Oppertunity Zuerich</p>
-    </div>
-  </footer>
 </body>
-<!--FOOTER -->
+ <!--footer-->
+ <footer class="bg-success text-center mh-auto mb-0 foot">
+  <div class="container text-white">
+    <img class="d-inline-block" src="image/logo.jpeg" alt="Logo" width="100" height="100">
+    <p>Heidis Helvetic</p>
+    <p>Mountain street 4</p>
+    <p>80W0 Alps</p>
+    <p>Switzereland</p>
+    <p>Schwarz Agency Switzerland Oppertunity Zuerich</p>
+  </div>
+</footer>
 
 </html>

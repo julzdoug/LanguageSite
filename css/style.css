@@ -16,26 +16,48 @@
       font-family: cursive;  
       font-weight: bolder;
    }
-   .bg-form {
-    background-image: url('image/1260521.jpg');
-    background-size: cover;
-    background-position: center;
-  }
+
 
   .centered {
     position: relative;
-    top: 50%;
-    left: 50%;
-    margin-top: auto;
-    margin-bottom: auto;
-    transform: translate(-50%, -50%);
-    
+    z-index:1; 
     text-align: center;
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(255, 255, 255);
+    background-size: contain;
+    
     font-weight: bold;
-    text-decoration-color: rgb(252, 252, 252);
+    text-decoration-color: rgb(83, 201, 228);
     font-size: larger;
-    color: var(--bs-white);
-    font-size: 5vh;
+    color:rgb(5, 22, 255);
+    font-size: 4vh;
+    
   } 
-  
+  .centered1 {
+    position: relative;
+    z-index:1; 
+    text-align: center;
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(255, 255, 255);
+    background-size: contain;
+    
+    font-weight: bold;
+    text-decoration-color: rgb(83, 201, 228);
+    font-size: larger;
+    color:rgb(5, 22, 255);
+    font-size: 5vh;
+    
+  } 
+  .formul {
+    position: relative;
+    z-index:1;
+    font-size: x-large;
+      font-family: cursive;  
+      font-weight: bolder;
+      background-color: #198754;
+      color:aliceblue;
+      height:max-content;
+  }
+  .foot{
+    position:relative;
+    z-index:1;
+  }
    
