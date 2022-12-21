@@ -12,8 +12,19 @@ function getLocalStorage(key) {
 // Funktion: Bestätigung generieren
 function writeConfirmation() {
     // Die Personalien werden in Variablen ausgelesen.
+    let Gender = getLocalStorage('gender');
     let firstName = getLocalStorage("fname");
-    let lastName;
+    let lastName = getLocalStorage("lname");
+    let StreetName = getLocalStorage("streetName");
+    let PostCode = getLocalStorage("postCode");
+    let City = getLocalStorage("city");
+    let Country = getLocalStorage("country");
+    let DateofBirth = getLocalStorage("DateOfBirth");
+    let PhoneNr = getLocalStorage("phoneNr");
+    let Email = getLocalStorage("email");
+    let Language = getLocalStorage("language");
+    let PayMent = getLocalStorage("payment");
+    let TermNCondition = getLocalStorage("tnc");
     // alert(`firstName = ${firstName}`);
 
     /*

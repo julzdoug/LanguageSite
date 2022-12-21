@@ -23,14 +23,29 @@ function Gender() {
         const femaleRadio = document.getElementById("inlineRadio2");
         const otherRadio = document.getElementById("inlineRadio3");
 
+
+
     if (!maleRadio.checked && !femaleRadio.checked && !otherRadio.checked) {
         alert("Please select a gender");
         return false;
 }
-else{
+
+    let choice = document.getElementsByName("inlineRadioOptions");
+    let value;
+
+for (let i = 0; i < choice.length; i++) {
+    let button = choice[i];
+    if (button.checked) {
+        value = button.value;
+        break;
+    }
+    }
+
+    localStorage.setItem("gender", value);
     return true;
+
 }
-}
+
 //First Name Validation
 function validateFirstName() {
     let inputElement = document.getElementById("fname");
@@ -41,6 +56,7 @@ function validateFirstName() {
         return false;
     }
     else {
+        localStorage.setItem('fname', value);
         return true;
     }
 }
@@ -54,6 +70,7 @@ function validateLastName() {
         return false;
     }
     else {
+        localStorage.setItem('lname', value);
         return true;
     }
 }
@@ -67,6 +84,7 @@ function validateStreetName() {
         return false;
     }
     else {
+        localStorage.setItem('steetName', value);
         return true;
     }
 }
@@ -80,6 +98,7 @@ function validatePostCode() {
         return false;
     }
     else {
+        localStorage.setItem('postCode', value);
         return true;
     }
 }
@@ -93,6 +112,7 @@ function validateCity() {
         return false;
     }
     else {
+        localStorage.setItem('city', value);
         return true;
     }
 }
@@ -105,6 +125,7 @@ function validatecountry() {
         return false;
     }
     else {
+        localStorage.setItem('country', value);
         return true;
     }
 }
@@ -118,6 +139,7 @@ function validateDateOfBirth() {
         return false;
     }
     else {
+        localStorage.setItem('DateOfBirth', value);
         return true;
     }
 }
@@ -131,6 +153,7 @@ function validatePhoneNumber() {
         return false;
     }
     else {
+        localStorage.setItem('phoneNr', value);
         return true;
     }
 }
@@ -144,6 +167,7 @@ function validateEmail() {
         return false;
     }
     else {
+        localStorage.setItem('email', value);
         return true;
     }
 }
@@ -164,8 +188,19 @@ function validateCheckboxes() {
       alert("Please select no more than 2 checkboxes");
       return false;
     }
-  
+
+    let boxes = Array.from(document.querySelectorAll('input[name="language"]:checked'));
+    let value;
+
+    for (let i = 0; i < boxes.length; i++) {
+        let box = boxes[i];
+        if (box.checked) {
+        value = box.value;
+        break;
+    }
+    }
     // If the checks pass, return true
+    localStorage.setItem("language", value);
     return true;
   }
   
@@ -190,6 +225,7 @@ function validateCheckboxes() {
         return false;
       } 
     else {
+        localStorage.setItem("payment", value);
       return true;
     }
   }
@@ -203,6 +239,7 @@ function validateCheckboxes() {
           return false;
         }
       else {
+        localStorage.setItem("tnc", value);
         alert("Thank you for signing up for a language class.");
         return true;
       }
