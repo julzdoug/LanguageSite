@@ -92,3 +92,8 @@ repeat from the gender. ( i had to use the query get not the document.)
 40.Clean up the bootstrap code..change some div made it responsive but problem with picture!!
 
 41.align css to all pages
+
+42.Working on local storage to save data..
+checkboxes and radio challengs occur.
+
+43. Save storage malfunction Email Phone Number and Checboxes not working worik on Output.
