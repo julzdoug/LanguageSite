@@ -99,3 +99,7 @@ checkboxes and radio challengs occur.
 43. Save storage malfunction Email Phone Number and Checboxes not working worik on Output.
 
 44. I have found some syntax and misstake and invalid outputs but it works. I will try to finish waht i can.
+
+45.made some change will try to add them to the register field
+
+46.80% now the javascript issue with writing the right code for the field and output...
