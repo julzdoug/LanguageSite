@@ -45,7 +45,7 @@ function writeConfirmation() {
         <p class="text-center fs-3 fw-bold"><span class="confirmation-label">Email:</span> ${Email}</p>
         <p class="text-center fs-3 fw-bold"><span class="confirmation-label">Language:</span> ${Language}</p>
         <p class="text-center fs-3 fw-bold"><span class="confirmation-label">Payment Method:</span> ${PayMent}</p>
-        <p class="text-center fs-3 fw-bold"><span class="confirmation-label">Terms and Condition:</span> ${TermNCondition class="text-center fs-3 fw-bold"}</p>
+        <p class="text-center fs-3 fw-bold"><span class="confirmation-label">Terms and Condition:</span> ${TermNCondition}</p>
     `;
 
     // Die Bestätigung wird als innerHTML gesetzt.
