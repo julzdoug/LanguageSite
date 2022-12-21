@@ -1,4 +1,10 @@
 
+@import "helpers";
+
+
+
+@import "utilities/api";
+
 @media (min-width: 768px) {
   .my-class {
     background-image: url('image/1260521.jpg');
@@ -16,6 +22,20 @@
     background-position: center;
   }
 
-   
+  .centered {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    transform: translate(-50%, -50%);
+    
+    text-align: center;
+    font-weight: bold;
+    text-decoration-color: rgb(252, 252, 252);
+    font-size: larger;
+    color: var(--bs-white);
+    font-size: 5vh;
+  } 
   
    
