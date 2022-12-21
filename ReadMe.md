@@ -90,3 +90,5 @@ repeat from the gender. ( i had to use the query get not the document.)
 39.comment the Javascript nice...
 
 40.Clean up the bootstrap code..change some div made it responsive but problem with picture!!
+
+41.align css to all pages
