@@ -58,8 +58,7 @@
   <!--pagecontext body with image-->
   <div class="my-class position-relative bg-success">
     <!-- form start-->
-    
-      <form action="confirmation.html" class="w-50 p-3 m-auto bg-success col-md-4" id="contactForm" onsubmit="return validateForm() && validateCheckboxes();"></form>
+    <form action="confirmation.html" class="w-50 p-3 m-auto bg-success col-md-4" id="contactForm" onsubmit="return validateForm() && validateCheckboxes();"></form>
       <img src="image/1260521.jpg" alt="language note" class="img-fluid img-thumbnail">
       <!--gender-->
       <div class="form-check-inline">
@@ -182,7 +181,7 @@
         </div>
         <div class="mt-5 mb-3 form-check">
           <button class="form-check btn btn-primary btn-lg" id="submitButton" type="submit"
-            onclick="validateForm();">Submit</button>
+            onclick="validateForm(),validateCheckboxes();">Submit</button>
         </div>
       </div>
     </form>
