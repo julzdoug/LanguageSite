@@ -97,3 +97,5 @@ repeat from the gender. ( i had to use the query get not the document.)
 checkboxes and radio challengs occur.
 
 43. Save storage malfunction Email Phone Number and Checboxes not working worik on Output.
+
+44. I have found some syntax and misstake and invalid outputs but it works. I will try to finish waht i can.
