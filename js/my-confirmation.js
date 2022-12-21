@@ -13,8 +13,8 @@ function getLocalStorage(key) {
 function writeConfirmation() {
     // Die Personalien werden in Variablen ausgelesen.
     let Gender = getLocalStorage('gender');
-    let firstName = getLocalStorage("fname");
-    let lastName = getLocalStorage("lname");
+    let FirstName = getLocalStorage("fname");
+    let LastName = getLocalStorage("lname");
     let StreetName = getLocalStorage("streetName");
     let PostCode = getLocalStorage("postCode");
     let City = getLocalStorage("city");
@@ -33,8 +33,19 @@ function writeConfirmation() {
         <p> und <span> Elemente verwendet.
     */
     let confirmation = `
-        <p><span class="confirmation-label">Vorname:</span> ${firstName}</p>
-        <p><span class="confirmation-label">Nachname:</span> ${lastName}</p>
+    <p><span class="confirmation-label">Vorname:</span> ${Gender}</p>
+        <p><span class="confirmation-label">Vorname:</span> ${FirstName}</p>
+        <p><span class="confirmation-label">Nachname:</span> ${LastName}</p>
+        <p><span class="confirmation-label">Vorname:</span> ${StreetName}</p>
+        <p><span class="confirmation-label">Vorname:</span> ${PostCode}</p>
+        <p><span class="confirmation-label">Vorname:</span> ${City}</p>
+        <p><span class="confirmation-label">Vorname:</span> ${Country}</p>
+        <p><span class="confirmation-label">Vorname:</span> ${DateofBirth}</p>
+        <p><span class="confirmation-label">Vorname:</span> ${PhoneNr}</p>
+        <p><span class="confirmation-label">Vorname:</span> ${Email}</p>
+        <p><span class="confirmation-label">Vorname:</span> ${Language}</p>
+        <p><span class="confirmation-label">Vorname:</span> ${PayMent}</p>
+        <p><span class="confirmation-label">Vorname:</span> ${TermNCondition}</p>
     `;
 
     // Die Bestätigung wird als innerHTML gesetzt.
