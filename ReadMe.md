@@ -116,4 +116,4 @@ checkboxes and radio challengs occur.
 
 52. I would like to insert a total cost nr to output. But the css has some bugs i need to take car of
 
-53.
+53.Update all pages. Issues with Javascript boxes.... and some other things like cost.
