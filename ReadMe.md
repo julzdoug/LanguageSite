@@ -1,3 +1,10 @@
+Figma Link:https://www.figma.com/file/tu0azq00c4gvai5MAmDqFq/langugaesite?t=5HTZT2E5kv07Awfp-0
+Trello Link:https://trello.com/invite/b/MQ040m5d/ATTI8b2331f801217126d37336708cec12deA578A48B/languagesite
+
+
+
+
+
 1.I searched for an example page and inspiration
 link:https://www.zhaw.ch/de/linguistik/institute-zentren/ilc/weiterbildung/sprachkurse/anmeldung-sprachkurse/
 
@@ -116,4 +123,4 @@ checkboxes and radio challengs occur.
 
 52. I would like to insert a total cost nr to output. But the css has some bugs i need to take car of
 
-53.
+53.Update all pages. Issues with Javascript boxes.... and some other things like cost.
