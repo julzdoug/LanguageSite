@@ -111,3 +111,9 @@ checkboxes and radio challengs occur.
 49.checkboxes language solve next check box and radio buttons.
 
 50.copy the language box system to payment boxes.
+
+51. finish the term button with the same code as gender buttons.
+
+52. I would like to insert a total cost nr to output. But the css has some bugs i need to take car of
+
+53.

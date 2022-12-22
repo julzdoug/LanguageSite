@@ -237,20 +237,29 @@ function validateCheckboxes() {
 
 //Terms Validation
     function TnC() {
-        var termsAndConditionsRadio = document.querySelector('#termsAndConditions');
-      
+        const termsAndConditionsRadio = document.getElementById("termsAndConditions");
+
+       
         if (!termsAndConditionsRadio.checked) {
           alert("You must accept the terms and conditions to continue.");
           return false;
         }
-      else {
-        localStorage.setItem("tnc", value);
-        alert("Thank you for signing up for a language class.");
-        return true;
-      }
+
+        let terms = document.getElementById("termsAndConditions");
+        let value = terms.value;
         
+                for (let i = 0; i < terms.length; i++) {
+                    let term = terms[i];
+                    if (term.checked) {
+                        value = term.value;
+                        break;
+                    }
       }
-      
+      alert("Thank you for Signing Up.");
+      localStorage.setItem("termsAndConditions", value);
+      return true;  
+    }
+
 
 /* My first code form 
 function validateForm() {
