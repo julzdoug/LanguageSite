@@ -22,9 +22,12 @@ function writeConfirmation() {
     let DateofBirth = getLocalStorage("DateOfBirth");
     let PhoneNr = getLocalStorage("phoneNr");
     let Email = getLocalStorage("email");
-    let Language = getLocalStorage("language");
+    let Language = getLocalStorage("language0");
+    let Language1 = getLocalStorage("language1");
     let PayMent = getLocalStorage("payment");
     let TermNCondition = getLocalStorage("tnc");
+   
+
     // alert(`firstName = ${firstName}`);
 
     /*
@@ -44,6 +47,7 @@ function writeConfirmation() {
         <p class="centered"><span class="confirmation-label centered">Phone Nr:</span> ${PhoneNr}</p>
         <p class="centered"><span class="confirmation-label centered">Email:</span> ${Email}</p>
         <p class="centered"><span class="confirmation-label centered">Language:</span> ${Language}</p>
+        <p class="centered"><span class="confirmation-label centered">Language:</span> ${Language1}</p>
         <p class="centered"><span class="confirmation-label centered">Payment Method:</span> ${PayMent}</p>
         <p class="centered"><span class="confirmation-label centered">Terms and Condition:</span> ${TermNCondition}</p>
     `;

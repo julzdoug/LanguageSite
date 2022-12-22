@@ -78,13 +78,13 @@ function validateLastName() {
 function validateStreetName() {
     let inputElement = document.getElementById("streetName");
     let value = inputElement.value;
-
+  
     if (!value) {
         alert("Please enter a Street Name");
         return false;
     }
     else {
-        localStorage.setItem('steetName', value);
+        localStorage.setItem('streetName', value);
         return true;
     }
 }
@@ -153,7 +153,7 @@ function validatePhoneNumber() {
         return false;
     }
     else {
-        localStorage.setItem('phoneNr', value);
+        localStorage.setItem('phoneNr', phoneNr);
         return true;
     }
 }
@@ -174,7 +174,7 @@ function validateEmail() {
 //language Validation
 function validateCheckboxes() {
     // Get all the checked checkboxes
-    let checkedCheckboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+    let checkedCheckboxes = document.querySelectorAll('input[name="language"]:checked');
     let total = checkedCheckboxes.length;
   
     // Check if no checkboxes are selected
@@ -196,38 +196,43 @@ function validateCheckboxes() {
         let box = boxes[i];
         if (box.checked) {
         value = box.value;
-        break;
+        language = 'language'+ i;
+        localStorage.setItem(language, value);
     }
     }
     // If the checks pass, return true
-    localStorage.setItem("language", value);
+    
     return true;
   }
   
 //payment Method Validation
   function validatepayment() {
-    var paymentGroup = document.querySelectorAll('input[name="payment"]');
+    let paymentGroup = document.querySelectorAll('input[name="payment"]:checked');
+    let psel = paymentGroup.length;
   
-    var checkedPayment = 0;
-  
-    for (var i = 0; i < paymentGroup.length; i++) {
-      if (paymentGroup[i].checked) {
-        checkedPayment++;
-      }
-    }
-  
-    if (checkedPayment == 0) {
+    if (psel == 0) {
       alert("Please select a payment method.");
       return false;
     } 
-    if (checkedPayment > 2) {
+    if (psel > 1) {
         alert("Please select only one payment method.");
         return false;
       } 
-    else {
-        localStorage.setItem("payment", value);
+
+      let pay = Array.from(document.querySelectorAll('input[name="payment"]:checked'));
+      let value;
+      
+      for (var i = 0; i < pay.length; i++) {
+        let payed = pay[i];
+        if (payed.checked) {
+            value = payed.value;
+            paymentMethod = 'payment';
+
+            localStorage.setItem("payment", value);
+            
+        }
+      }
       return true;
-    }
   }
 
 //Terms Validation

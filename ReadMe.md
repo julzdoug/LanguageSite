@@ -103,3 +103,11 @@ checkboxes and radio challengs occur.
 45.made some change will try to add them to the register field
 
 46.80% now the javascript issue with writing the right code for the field and output...
+
+47.Fields having output most syntax and miss spelling fails....
+
+48. back to checkboxes
+
+49.checkboxes language solve next check box and radio buttons.
+
+50.copy the language box system to payment boxes.
