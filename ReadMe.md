@@ -35,3 +35,85 @@ got a backgorund image link:https://wallpaperaccess.com/world-language
 
 17.Starting with position radio buttons.
 
+18.Add Street
+
+19.add Post code on contact form
+
+20.add City contact Form
+
+21. add country place of birth Email phone number
+
+22.starting with checkboxes and english
+
+23.added other languages place still nedd to be mess with plus responsive problem. after prototype try to fix
+
+24.Payments method added and terms and conditions
+
+25.Add onSubmit name for function an button pluss message field ready
+
+26. made variable with all the IDs
+
+27. script radio button response check. Continue with name field validations
+
+28.First name and last name
+
+29.PostCode
+
+30.City
+
+31. i had to change the type for the number field and email.
+
+32. Correcte the input type and the java script forgot the street.
+
+33. Run the code thru java and html validation Link:
+https://appdevtools.com/html-validator
+https://validatejavascript.com/
+
+34.change the var to const
+
+35.rewriting in seperate function.
+
+36.starting checkboxe REAL link:
+https://www.the-art-of-web.com/html/html5-checkbox-required/
+
+36.checkbox blackout. found a link and try to write over.... link:
+https://www.plus2net.com/javascript_tutorial/checkbox-limit.php
+
+37: Heading to the payment section to validate this...
+help from link:
+https://www.quizcure.com/javascript/single-multiple-checkbox-validation-in-javascript
+change ita bit
+
+38. Trying to finish the radio button terms n condition...
+repeat from the gender. ( i had to use the query get not the document.)
+
+39.comment the Javascript nice...
+
+40.Clean up the bootstrap code..change some div made it responsive but problem with picture!!
+
+41.align css to all pages
+
+42.Working on local storage to save data..
+checkboxes and radio challengs occur.
+
+43. Save storage malfunction Email Phone Number and Checboxes not working worik on Output.
+
+44. I have found some syntax and misstake and invalid outputs but it works. I will try to finish waht i can.
+
+45.made some change will try to add them to the register field
+
+46.80% now the javascript issue with writing the right code for the field and output...
+
+47.Fields having output most syntax and miss spelling fails....
+
+48. back to checkboxes
+
+49.checkboxes language solve next check box and radio buttons.
+
+50.copy the language box system to payment boxes.
+
+51. finish the term button with the same code as gender buttons.
+
+52. I would like to insert a total cost nr to output. But the css has some bugs i need to take car of
+
+53.
