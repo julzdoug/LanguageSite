@@ -171,6 +171,44 @@ function validateEmail() {
         return true;
     }
 }
+
+/* after many attent and comunication */
+function validateCheckboxes() {
+    // Get all the checked checkboxes
+    let checkedCheckboxes = document.querySelectorAll('input[name="language"]:checked');
+    let total = checkedCheckboxes.length;
+  
+    // Check if no checkboxes are selected
+    if (total == 0) {
+      alert("Please select at least one checkbox");
+      return false;
+    }
+  
+    // Check if more than 2 checkboxes are selected
+    if (total > 2) {
+      alert("Please select no more than 2 checkboxes");
+      return false;
+    }
+  
+    // If the checks pass, return true
+    return true;
+  }
+  
+  function handleCheckboxSelection() {
+    // Get all the checked checkboxes
+    let checkedCheckboxes = document.querySelectorAll('input[name="language"]:checked');
+    let values = [];
+  
+    // Loop through the checked checkboxes and add their values to an array
+    checkedCheckboxes.forEach(function(checkbox) {
+      values.push(checkbox.value);
+    });
+  
+    // Store the selected languages in localStorage
+    localStorage.setItem('selectedLanguages', values);
+  }
+  
+/*
 //language Validation
 function validateCheckboxes() {
     // Get all the checked checkboxes
@@ -204,7 +242,7 @@ function validateCheckboxes() {
     
     return true;
   }
-  
+*/
 //payment Method Validation
   function validatepayment() {
     let paymentGroup = document.querySelectorAll('input[name="payment"]:checked');
