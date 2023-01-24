@@ -125,3 +125,9 @@ checkboxes and radio challengs occur.
 
 53.Update all pages. Issues with Javascript boxes.... and some other things like cost.
 
+
+Update
+
+// it checked everything 2 times because the submit button had onclick="validateForm(),validateCheckboxes(); Like it is already in the from
+
+going back on the checkboxes
