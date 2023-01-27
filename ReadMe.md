@@ -130,4 +130,108 @@ Update
 
 // it checked everything 2 times because the submit button had onclick="validateForm(),validateCheckboxes(); Like it is already in the from
 
+// The problem with the checkboxes is that it doesnt store the 2 language right in the local storage.
+I try multiple ways and after many attempts i played around with these method 
+Link:https://stackoverflow.com/questions/590018/getting-all-selected-checkboxes-in-an-array
+
 going back on the checkboxes
+// I had the problems withou the display of the checkboxes same way here multiple try and
+could do something with this solutionslink:https://stackoverflow.com/questions/58940331/retrieve-multiple-values-local-storage-and-show-within-div-element
+
+// the phone number problem
+if (!/^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/.test(phoneNr))
+it is use full for the phone nr but for this a let it
+this code requires that the phone number must have 10 number to be valid i 
+took this out and change it with (!value) also i had to change the var phoneNR to value.
+and made the html only accept number with type "number" and added value
+<input class="form-control py-1" id="phoneNr" type="number" placeholder="Phone Number"
+          data-sb-validations="required" />
+
+Javascript schould be on point 
+
+working on the responsive layout.
+
+
+
+
+
+<!-- My first code form 
+function validateForm() {
+    // Get the gender radio buttons
+    const maleRadio = document.getElementById("inlineRadio1");
+    const femaleRadio = document.getElementById("inlineRadio2");
+    const otherRadio = document.getElementById("inlineRadio3");
+
+    const fname = document.getElementById('fname');
+    const lname = document.getElementById('lname');
+    const streetName=document.getElementById("streetName");
+    const postCode=document.getElementById("postCode");
+    const city=document.getElementById("city");
+    const country=document.getElementById("country");
+    const phoneNr=document.getElementById("phoneNr");
+    const dateOfBirth=document.getElementById("dateOfBirth");
+    const email=document.getElementById("email");
+//checkboxes 
+const english=document.getElementById("english");
+const russian = document.getElementById("russian");
+const german = document.getElementById("german");
+const greek = document.getElementById("greek");
+const french = document.getElementById("french");
+const dutch = document.getElementById("dutch");
+const spanish = document.getElementById("spanish");
+const hungarian = document.getElementById("hungarian");
+//billings variables
+const bills = document.getElementById("bills");
+const creditCard = document.getElementById("creditCard");
+//Terms 
+const TnC = document.getElementsByClassName("termsAndConditions");
+
+      if (!maleRadio.checked && !femaleRadio.checked && !otherRadio.checked) {
+      alert("Please select a gender");
+      return false;
+    }
+    // validate name
+    if (fname.value.length == 0) {
+    alert("Please enter a First Name");
+    return false;
+  }
+  if (lname.value.length == 0) {
+    alert("Please enter a Last Name");
+    return false;
+  }
+  //streetName
+if (streetName.value.length == 0) {
+    alert("Please enter a Street Name");
+        return false;
+}
+  //checked postCode
+  if (postCode.value < 5000 || postCode.value > 9000) { 
+    alert("Please enter a Post Code");
+    return false;
+     }
+     if (city.value.trim() == "") {
+      alert("Please enter a City");
+      return false;
+     }
+     if (country.value.trim() == "") {
+      alert("Please enter a Country");
+      return false;
+
+     if (dateOfBirth.value.trim() == "") { 
+      alert("Please enter a Date of Birth");
+      return false;
+     }
+     if (!/^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/.test(phoneNr.value)) { 
+        alert("Please enter a valid phone number");
+        return false;
+      }
+     if (email.value.indexOf('@') === -1) {
+      alert("Please enter an Email");
+      return false;
+     }
+
+     return true;
+} 
+}
+
+ -->

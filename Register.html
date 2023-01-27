@@ -52,7 +52,7 @@
   <!--pagecontext body with image-->
   <div class="bg-image mh-auto" style="background-image: url('image/1260521.jpg');">
     <!-- form start-->
-    <form action="confirmation.html" class="w-60 p-3 m-auto col-md-4 formul" id="contactForm" onsubmit="return validateForm() /* && validateCheckboxes()*/;">
+    <form action="confirmation.html" class="w-60 p-3 m-auto col-md-4 formul" id="contactForm" onsubmit="return validateForm() && validateCheckboxes();">
    <!--gender-->
       <div class="form-check-inline">
         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="Male">
@@ -117,7 +117,7 @@
       <div class="row justify-content-sm-start g-3">
         <label class="form-label py-2" for="phoneNr"></label>
         <input class="form-control py-1" id="phoneNr" type="number" placeholder="Phone Number"
-          data-sb-validations="required" />
+          data-sb-validations="required" value="phoneNr"/>
         <div class="invalid-feedback" data-sb-feedback="phoneNr:required">Phone Nr is required.</div>
       </div>
       <!--Email-->
