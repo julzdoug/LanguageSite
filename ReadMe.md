@@ -150,7 +150,8 @@ and made the html only accept number with type "number" and added value
 Javascript schould be on point 
 
 working on the responsive layout.
-
+i added a div befor the checkboxes an took the class out now the all align.
+also i change the input field took out the row and added i div to make the code simple
 
 
 
