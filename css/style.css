@@ -1,103 +1,105 @@
-
 @import "helpers";
-
-
 
 @import "utilities/api";
 
-@media (min-width: 768px) {
-  .my-class {
-    background-image: url('image/1260521.jpg');
-  }
+
+#title,
+.navbar-nav,
+#navbarNav {
+  font-size: xx-large;
+  font-family: cursive;
+  font-weight: bolder;
+  max-width: 100%;
 }
 
-#title,.navbar-nav,#navbarNav {
-      font-size: xx-large;
-      font-family: cursive;  
-      font-weight: bolder;
-   }
+.centered {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  text-shadow: 1px 1px 2px red, 0 0 1em rgb(255, 255, 255),
+    0 0 0.2em rgb(255, 255, 255);
+  background-size: contain;
 
+  font-weight: bold;
+  text-decoration-color: rgb(83, 201, 228);
+  font-size: larger;
+  color: rgb(255, 255, 255);
+  font-size: 4vh;
+  max-width: 100%;
+}
+.centered1 {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  text-shadow: 1px 1px 2px red, 0 0 1em rgb(255, 255, 255),
+    0 0 0.2em rgb(255, 255, 255);
+  background-size: contain;
 
-  .centered {
-    position: relative;
-    z-index:1; 
-    text-align: center;
-    text-shadow: 1px 1px 2px red, 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(255, 255, 255);
-    background-size: contain;
-    
-    font-weight: bold;
-    text-decoration-color: rgb(83, 201, 228);
-    font-size: larger;
-    color:rgb(255, 255, 255);
-    font-size: 4vh;
-    
-  } 
-  .centered1 {
-    position: relative;
-    z-index:1; 
-    text-align: center;
-    text-shadow: 1px 1px 2px red, 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(255, 255, 255);
-    background-size: contain;
-    
-    font-weight: bold;
-    text-decoration-color: rgb(83, 201, 228);
-    font-size:larger;
-    color:rgb(5, 22, 255);
-    font-size: 5vh;
-    
-  } 
-  .centered2 {
-    position: relative;
-    z-index:1; 
-    text-align: center;
-    text-shadow: 1px 1px 2px red, 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(255, 255, 255);
-    background-size: contain;
-    
-    font-weight: bold;
-    text-decoration-color: rgb(83, 201, 228);
-    font-size:x-large;
-    color:rgb(191, 0, 255);
-    font-size: 5vh;
-      } 
-  .centered3 {
-    position: relative;
-    z-index:1; 
-    text-align: center;
-    text-shadow: 1px 1px 2px red, 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(255, 255, 255);
-    background-size: contain;
-    
-    font-weight: bold;
-    text-decoration-color: rgb(83, 201, 228);
-    font-size:medium;
-    color:rgb(206, 0, 137);
-    font-size: 5vh;
-      } 
-      .centered4 {
-        position: relative;
-        z-index:1; 
-        text-align: center;
-        text-shadow: 1px 1px 2px red, 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(255, 255, 255);
-        background-size: contain;
-        
-        font-weight: bold;
-        text-decoration-color: rgb(83, 201, 228);
-        font-size:large;
-        color:rgb(255, 0, 0);
-        font-size: 5vh;
-        
-      } 
-  .formul {
-    position: relative;
-    z-index:1;
-    font-size: x-large;
-      font-family: cursive;  
-      font-weight: bolder;
-      background-color: #198754;
-      color:aliceblue;
-      height:max-content;
-  }
-  .foot{
-    position:relative;
-    z-index:1;
-  }
-   
+  font-weight: bold;
+  text-decoration-color: rgb(83, 201, 228);
+  font-size: larger;
+  color: rgb(5, 22, 255);
+  font-size: 5vh;
+  max-width: 100%;
+}
+.centered2 {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  text-shadow: 1px 1px 2px red, 0 0 1em rgb(255, 255, 255),
+    0 0 0.2em rgb(255, 255, 255);
+  background-size: contain;
+
+  font-weight: bold;
+  text-decoration-color: rgb(83, 201, 228);
+  font-size: x-large;
+  color: rgb(191, 0, 255);
+  font-size: 5vh;
+  max-width: 100%;
+}
+.centered3 {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  text-shadow: 1px 1px 2px red, 0 0 1em rgb(255, 255, 255),
+    0 0 0.2em rgb(255, 255, 255);
+  background-size: contain;
+
+  font-weight: bold;
+  text-decoration-color: rgb(83, 201, 228);
+  font-size: medium;
+  color: rgb(206, 0, 137);
+  font-size: 5vh;
+  max-width: 100%;
+}
+.centered4 {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  text-shadow: 1px 1px 2px red, 0 0 1em rgb(255, 255, 255),
+    0 0 0.2em rgb(255, 255, 255);
+  background-size: contain;
+
+  font-weight: bold;
+  text-decoration-color: rgb(83, 201, 228);
+  font-size: large;
+  color: rgb(255, 0, 0);
+  font-size: 5vh;
+  max-width: 100%;
+}
+.formul {
+  position: relative;
+  z-index: 1;
+  font-size: x-large;
+  font-family: cursive;
+  font-weight: bolder;
+  background-color: #198754;
+  color: aliceblue;
+  max-height: fit-content;
+  max-width: fit-content;
+}
+.foot {
+  position: relative;
+  z-index: 1;
+  max-width: 100%;
+}
