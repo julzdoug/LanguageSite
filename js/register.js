@@ -209,7 +209,7 @@ function handleCheckboxSelection() {
   let value = [];
 
   // Loop through the checked checkboxes and add their values to an array
-  for (var i = 0; i < checkedCheckboxes.length; i++) {
+  for (i = 0; i < checkedCheckboxes.length; i++) {
     let checks = checkedCheckboxes[i];
     if (checks.checked) {
       value.push(checks.value);
@@ -240,7 +240,7 @@ function validatepayment() {
   );
   let value;
   // Loop through the checked checkboxes and add their values to an array
-  for (var i = 0; i < pay.length; i++) {
+  for (i = 0; i < pay.length; i++) {
     let payed = pay[i];
     if (payed.checked) {
       value = payed.value;
