@@ -125,6 +125,14 @@ checkboxes and radio challengs occur.
 
 53.Update all pages. Issues with Javascript boxes.... and some other things like cost.
 
+54. put the checboxen in aplabetic order and row
+
+55.same to the pay method and rea te term button.
+
+56. working on the gender button
+target gender button button center and responive for cellphon small width
+
+
 
 Update
 
