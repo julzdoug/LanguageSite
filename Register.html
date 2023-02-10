@@ -90,6 +90,7 @@
         <!--gender-->
         <div class="justify-content-center m-2">
           <label><span class="display">Gender please select at least one</span></label>
+          <br>
           <div class="form-check form-check-inline">
             <input
               class="form-check-input"
@@ -100,7 +101,7 @@
             />
             <label class="form-check-label" for="inlineRadio1">Male</label>
           </div>
-          <div class="form-check form-check-inline">
+          <div class="form-check form-check-inline ms-3">
             <input
               class="form-check-input"
               type="radio"
@@ -110,7 +111,7 @@
             />
             <label class="form-check-label" for="inlineRadio2">Female</label>
           </div>
-          <div class="form-check form-check-inline">
+          <div class="form-check form-check-inline ms-3">
             <input
               class="form-check-input"
               type="radio"
@@ -265,16 +266,81 @@
         <div class="py-2 justify-content-sm-start col formul">
           <label><span class="display">Language please select at least one</span></label>
         </div>
-        <div class="row justify-content-center">
+        <div class="container justify-content-center">
+          <div class="row row-cols-3">
           <div>
             <input
-              class="form-check-input"
+              class="form-check-input col-sm"
+              id="dutch"
+              type="checkbox"
+              name="language"
+              value="dutch"
+            />
+            <label class="form-check-label" for="Dutch">Dutch</label>
+          </div>
+          <div>
+            <input
+              class="form-check-input col-sm"
               id="english"
               type="checkbox"
               name="language"
               value="english"
             />
             <label class="form-check-label" for="English">English</label>
+          </div>
+          <div>
+            <input
+              class="form-check-input col-sm"
+              id="french"
+              type="checkbox"
+              name="language"
+              value="french"
+            />
+            <label class="form-check-label" for="French">French</label>
+          </div>
+       
+         
+          <div>
+            <input
+              class="form-check-input col-sm"
+              id="german"
+              type="checkbox"
+              name="language"
+              value="german"
+            />
+            <label class="form-check-label" for="German">German</label>
+          </div>
+          <div>
+            <input
+              class="form-check-input col-sm"
+              id="greek"
+              type="checkbox"
+              name="language"
+              value="greek"
+            />
+            <label class="form-check-label" for="Greek">Greek</label>
+          </div>
+          <div>
+            <input
+              class="form-check-input col-sm"
+              id="hungarian"
+              type="checkbox"
+              name="language"
+              value="hungarian"
+            />
+            <label class="form-check-label" for="Hungarian">Hungarian</label>
+          </div>
+        
+        
+          <div>
+            <input
+              class="form-check-input col-sm"
+              id="spanish"
+              type="checkbox"
+              name="language"
+              value="spanish"
+            />
+            <label class="form-check-label" for="Spanish">Spanish</label>
           </div>
           <div>
             <input
@@ -286,71 +352,17 @@
             />
             <label class="form-check-label" for="Russian">Russian</label>
           </div>
-          <div>
-            <input
-              class="form-check-input"
-              id="german"
-              type="checkbox"
-              name="language"
-              value="german"
-            />
-            <label class="form-check-label" for="German">German</label>
-          </div>
-          <div>
-            <input
-              class="form-check-input"
-              id="greek"
-              type="checkbox"
-              name="language"
-              value="greek"
-            />
-            <label class="form-check-label" for="Greek">Greek</label>
-          </div>
-          <div>
-            <input
-              class="form-check-input"
-              id="french"
-              type="checkbox"
-              name="language"
-              value="french"
-            />
-            <label class="form-check-label" for="French">French</label>
-          </div>
-          <div>
-            <input
-              class="form-check-input"
-              id="dutch"
-              type="checkbox"
-              name="language"
-              value="dutch"
-            />
-            <label class="form-check-label" for="Dutch">Dutch</label>
-          </div>
-          <div>
-            <input
-              class="form-check-input"
-              id="spanish"
-              type="checkbox"
-              name="language"
-              value="spanish"
-            />
-            <label class="form-check-label" for="Spanish">Spanish</label>
-          </div>
-          <div>
-            <input
-              class="form-check-input"
-              id="hungarian"
-              type="checkbox"
-              name="language"
-              value="hungarian"
-            />
-            <label class="form-check-label" for="Hungarian">Hungarian</label>
-          </div>
+        </div>
+       
         </div>
         <!--Payment-->
-        <div class="row mb-3 py-2 formul">
+        <div class="justify-content-sm-start formul">
           <label>Payment</label>
-          <div class="form-check-inline">
+          <br>
+          <div class="container justify-content-center">
+          <div class="row">
+
+          <div class="form-check-inline col-sm">
             <input
               class="form-check-input"
               id="bills"
@@ -359,7 +371,8 @@
               value="bill"
             />
             <label class="form-check-label" for="bills">Bills</label>
-            <div>
+            
+            <div class="form-check-inline col-sm">
               <input
                 class="form-check-input"
                 id="creditCard"
@@ -368,9 +381,10 @@
                 value="CreditCard"
               />
               <label class="form-check-label" for="creditCard"
-                >Credit Card</label
-              >
+                >Credit Card</label>
             </div>
+            </div>
+          </div>
           </div>
         </div>
         <!--Terms and Conditon-->
@@ -378,6 +392,7 @@
           <label class="form-label form-check-inline"
             >Terms and Conditions</label
           >
+          <div class="container justify-content-center">
           <div>
             <input
               class="form-check-input"
@@ -389,6 +404,7 @@
             <label class="form-check-label" for="termsAndConditions"
               >I have Read</label
             >
+          </div>
           </div>
           <div class="mt-5 mb-3 form-check">
             <button
